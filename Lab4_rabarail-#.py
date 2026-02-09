@@ -86,3 +86,6 @@ while attempts < 6:
         print("Too high! Try again.")
     print(hangman_stages[attempts])
     attempts += 1
+if attempts == 6:
+    print("Game Over! You've used all your attempts. The correct number was:", random_number)
+    
