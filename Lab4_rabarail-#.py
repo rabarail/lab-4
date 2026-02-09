@@ -5,3 +5,14 @@ Starter code: None
 Date:02/09/2026"""
 import random
 random_number = random.randint(1, 15)
+Hangman = """
+_________
+|        |
+|
+|
+|
+|
+|
+|
+============
+"""
