@@ -80,3 +80,5 @@ while attempts < 6:
     if guess == random_number:
         print("Congratulations! You've guessed the number correctly!")
         break
+    elif guess < random_number:
+        print("Too low! Try again.")
