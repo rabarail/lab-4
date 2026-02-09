@@ -82,3 +82,7 @@ while attempts < 6:
         break
     elif guess < random_number:
         print("Too low! Try again.")
+    else:
+        print("Too high! Try again.")
+    print(hangman_stages[attempts])
+    attempts += 1
