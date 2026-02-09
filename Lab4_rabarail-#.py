@@ -5,14 +5,66 @@ Starter code: None
 Date:02/09/2026"""
 import random
 random_number = random.randint(1, 15)
-Hangman = """
+print("Welcome to Guess the Number - Hangman Style!")
+print("I have selected a random number between 1 and 15.")      
+print("You have 6 attempts to guess the number.")
+hangman_stages = [
+"""
 _________
 |        |
 |
 |
 |
 |
+============ """
+,  """
+_________
+|        |
+|        0
 |
 |
-============
+|
+============ """
+, """   
+_________
+|        |
+|        0
+|        |
+|
+|
+============ """
+, """   
+_________
+|        |
+|        0
+|       /|
+|
+|
+============ """
+, """   
+_________
+|        |
+|        0
+|       /|\ 
+|
+|
+============ """
+, """   
+_________
+|        |
+|        0
+|       /|\ 
+|       /
+|
+============ """
+, """
+_________
+|        |
+|        0
+|       /|\ 
+|       / \ 
+|
+============ 
+
 """
+]
