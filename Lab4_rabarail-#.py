@@ -4,3 +4,4 @@ Purpose: guess random number between 1 and 15. Each guess reveals part of hangma
 Starter code: None
 Date:02/09/2026"""
 import random
+random_number = random.randint(1, 15)
