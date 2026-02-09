@@ -69,3 +69,7 @@ _________
 """
 ]
 attempts = 0
+]
+attempts = 0
+while attempts < 6:
+    guess = int(input("Pease enter your guess: "))
